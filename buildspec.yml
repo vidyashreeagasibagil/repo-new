@@ -5,6 +5,7 @@ phases:
     commands:
       - echo Executing Build Phase...
       - mvn clean package
+      -mvn install
   post_build:
     commands:
       - echo Build completed successfully
